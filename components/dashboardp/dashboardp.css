@@ -1,0 +1,83 @@
+.maincontainer {
+    display: flex;
+    padding: 0;
+    background-color: red;
+    height: 100vh;
+}
+.left {
+
+display: flex;
+    background-color: yellowgreen;
+    flex: 0.3;
+}
+
+.right {
+    display: flex;
+    background-color: burlywood;
+    flex: 0.7;
+    flex-direction: column;
+}
+.righttop {
+    display: flex;
+    background-color: brown;
+    flex: 0.1;
+}
+.rightbottom {
+    display: flex;
+    background-color: purple;
+    flex: 0.9;
+}
+
+.cardtoprow {
+    display: flex;
+    background-color: orange;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardbottomrow {
+    display: flex;
+    background-color: turquoise;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    /* //introducing 3d effect with box shadow */
+    /* horizontal offset assign a negative value to the left */
+box-shadow: 2px -2px /* blur efect: */ 5px rosybrown;
+border-radius: 5px;
+}
+
+.menudiv {
+display: flex;
+background-color: saddlebrown;
+flex-direction: 0.8;
+}
+
+.brandiv{
+    display: flex;
+    background-color: saddlebrown;
+    flex-direction: 0.1;
+}
+.sigout{
+    display: flex;
+    background-color: saddlebrown;
+    flex-direction: 0.1;
+    background-image: url(../dashboardp/images/);
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+
+}
+
+
+
